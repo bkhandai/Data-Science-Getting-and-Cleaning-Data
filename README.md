@@ -1,15 +1,14 @@
-==================================================================
 Tidy data set generated from
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 by
 Biswajit Khandai for Coursera Project
 
-==================================================================
+-------------------------------------------------------------------
 Source data and description of the source data was taken from
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-==================================================================
+------------------------------------------------------------------
 
 The dataset included the following files
 
@@ -38,12 +37,12 @@ The dataset included the following files
 
 
 Notes:
-======
+-----
 - Features are normalized and bounded within [-1,1].
 
 
 License:
-========
+-------
 Use of the "source" dataset is acknowledged by referencing
 the following publication [1]
 
