@@ -138,7 +138,7 @@ mean_std_colnames = mean_std_colnames[mean_std_colids]
 merged_tbl <- cbind(merged_tbl[1], merged_tbl[2], merged_tbl[c(mean_std_colids)])
 
 # We have our final table. Time to write it out
-write.table(merged_tbl, "merged_data.txt")
+write.table(merged_tbl, "merged_data.txt", row.names = FALSE)
 
 # We can do group by explicitly, but it would be redundant, since we are
 # going to use a "by" in the aggregate function
@@ -149,5 +149,5 @@ avg_tbl <- aggregate(x = merged_tbl[, 3:88],
                      FUN = mean)
 
 # We have our averages table. Time to write it out
-write.table(avg_tbl, "average_data.txt")
+write.table(avg_tbl, "average_data.txt", row.names = FALSE)
 
